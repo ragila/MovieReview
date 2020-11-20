@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "245742850946",
+    "firebase_url": "https://moviereview-50376.firebaseio.com",
+    "project_id": "moviereview-50376",
+    "storage_bucket": "moviereview-50376.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:245742850946:android:1da345c4ff3991d50bf59b",
+        "android_client_info": {
+          "package_name": "com.moviereview"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "245742850946-j0ofm1di76tnmrilmeup5cg4044g91bf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.moviereview",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "245742850946-rbb2tuqbdbm4qa63luda3iqd3rerg3tt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDR_XOBYPl7O7UYuKit0AouiE6XQOL8-e0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "245742850946-rbb2tuqbdbm4qa63luda3iqd3rerg3tt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

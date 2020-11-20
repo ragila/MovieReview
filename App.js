@@ -1,25 +1,14 @@
-import React from 'react';
-import {SafeAreaView,StyleSheet,ScrollView, View,Text,StatusBar,} from 'react-native';
-import LoginScreen from './src/screens/Login';
-import Register from './src/screens/Register';
+import React, {useState} from 'react';
+import {StatusBar, ActivityIndicator} from 'react-native';
+import AppStack from './src/navigator/AppStack';
+import {Provider} from 'react-redux'
+import store from './src/store'
 
-const App: () => React$Node = () => {
-  return (
-    <>
-      <StatusBar barStyle="dark-content" />
-      <SafeAreaView style={styles.container}>
-         <LoginScreen />
-      </SafeAreaView>
-    </>
-  );
-};
-
-const styles = StyleSheet.create({
-  container :{
-   backgroundColor:'#222',
-   height:'100%',
-   alignItems:'center'
-  }
-});
-
-export default App;
+export default function App() {
+  return( 
+    <Provider store={store}>
+      <StatusBar barStyle="dark-content"/>
+      <AppStack/>
+    </Provider>
+  )
+}
