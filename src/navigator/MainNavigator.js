@@ -12,7 +12,6 @@ import {connect} from 'react-redux'
 const Tab = createBottomTabNavigator();
 
  const MainNavigator = (props) => {
-    // const[url_image, setUrl_image] = useState(props.profile.url_image)
     return(
         <Tab.Navigator initialRouteName='HomeStack' tabBarOptions={{activeTintColor: '#e91e63', showLabel: false}}>
             <Tab.Screen name='UserReview' component={UserReview}
